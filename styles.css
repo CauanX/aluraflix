@@ -1,0 +1,57 @@
+Body {
+    background: Black;
+    color: white;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 2cm;
+}
+
+header {
+    border-bottom: solid 1.5px rgb(42, 122, 288);
+    padding: 0.8cm;
+    font-size: 32px;
+    color: rgb(42, 122, 288);
+    
+
+}
+
+.recommend {
+    background: rgb(20, 20, 20);
+    padding-top: px;
+    padding-bottom: 40px;
+    display: grid;
+    justify-content: center;
+}
+
+.recommend-text {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40;
+}
+
+.curta-metragem-links {
+    display: flex;
+    overflow-x: auto;
+    gap: 3px;
+}
+
+.curta-metragem {
+    padding-left: 20px;
+}
+
+.curta-metragem-links img {
+    height: 6cm;
+    opacity: 0.5;
+}
+
+.curta-metragem-links img:hover {
+    height: 6cm;
+    opacity: 1;
+    border: 1px solid gray;
+}
+
+.curta-metragem h2 {
+    color: rgb(42, 122, 288);
+}
